@@ -1,0 +1,27 @@
+/* Footer */
+.footer {
+  background-color: var(--main-text-color);
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social__item {
+  margin: 1rem 2rem;
+}
+
+.social-link {
+  color: var(--oposite-text-color);
+  font-size: calc(var(--fontSize) * 2);
+  transition: var(--transition);
+
+  &:--enter {
+    color: var(--orange);
+    transition: var(--transition);
+  }
+}
+/* End Footer */

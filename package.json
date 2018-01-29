@@ -1,0 +1,16 @@
+{
+  "name": "Portfolio of Alena Batitskaia",
+  "version": "0.1",
+  "description": "В этом портфолио я собираю все, над которыми работала. Верстка посадочных страниц, страниц сайтов и отдельных элементов.",
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "cssnext": "^1.8.4",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.9.0",
+    "postcss-import": "^11.0.0",
+    "precss": "^3.1.0"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1"
+  }
+}

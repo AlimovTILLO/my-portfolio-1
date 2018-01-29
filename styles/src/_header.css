@@ -1,0 +1,66 @@
+/* Header */
+.header {
+  padding: 5rem 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 10rem;
+  height: 10rem;
+  border: none;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.nav {
+  align-items: center;
+
+  :any-link {
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: var(--main-text-color);
+    padding: 2.5rem;
+    border-bottom: 4px solid transparent;
+    transition: var(--transition);
+    font-weight: 500;
+
+    &:--enter {
+      color: var(--orange);
+      border-bottom: 4px solid var(--orange);
+      transition: var(--transition);
+    }
+  }
+}
+
+.hero-text {
+  text-align: center;
+  max-width: 96rem;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+
+.hero-text__title {
+  font-size: 7.6rem;
+
+  .fa-heart {
+    will-change: auto;
+    font-size: 8rem;
+    animation: heart-color 10s linear infinite, heart-beat 0.5s cubic-bezier(0.4, 0, 1, 1) infinite;
+    animation-direction: alternate-reverse;
+    transition: var(--transition);
+
+    &:--enter {
+      animation-play-state: paused;
+    }
+  }
+}
+
+.hero-text__description {
+  font-size: 3.6rem;
+}
+
+/* End Header*/

@@ -1,0 +1,12 @@
+/* About */
+.about-block > div {
+  flex-basis: 48%;
+  align-self: center;
+}
+
+.about-block__text {
+  font-size: calc(var(--fontSize) * 1.1);
+  line-height: 1.4;
+}
+
+/* End About */

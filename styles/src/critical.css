@@ -1,0 +1,77 @@
+/* Critical */
+
+*::-moz-selection {
+  background: var(--selection-bkg);
+  color: var(--selection-text-color);
+}
+
+*::-webkit-selection{
+  background: var(--selection-bkg);
+  color: var(--selection-text-color);
+}
+
+*::selection {
+  background: var(--selection-bkg);
+  color: var(--selection-text-color);
+}
+
+* :any-link {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid var(--orange);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--fontSize);
+  color: var(--main-text-color);
+  -webkit-font-smoothing: subpixel-antialiased;;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+.wrapper {
+  max-width: 128rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.flex-block {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.attention {
+  font-weight: 700;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3.6rem;
+}
+
+.section-title:after {
+  content: "";
+  display: block;
+  margin: 1.5rem auto;
+  width: 5rem;
+  height: 4px;
+  background-color: var(--orange);
+}
+
+.section-description {
+  margin: 7rem auto;
+  max-width: 840px;
+  text-align: center;
+  font-size: calc(var(--fontSize) * 2);
+}
+
+/* End Critical */

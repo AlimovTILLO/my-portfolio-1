@@ -1,0 +1,15 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+@import "variables.css";
+@import "critical.css";
+@import "patterns.css";
+
+@import "_header";
+@import "_scroll-icon.css";
+@import "_about.css";
+@import "_about-slideshow.css";
+@import "_skills.css";
+@import "_portfolio.css";
+@import "_footer.css";
+
+@import "animations.css";

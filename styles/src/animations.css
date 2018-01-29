@@ -1,0 +1,86 @@
+/* Animations */
+
+@keyframes heart-color {
+  from {
+    color: red;
+  }
+  25% {
+    color: var(--orange);
+  }
+  50% {
+    color: #9c27b0;
+  }
+  75% {
+    color: #673ab7;
+  }
+  to {
+    color: black;
+  }
+}
+
+@keyframes heart-beat {
+  from {
+    transform: scale(0.8);
+  }
+  25% {
+    transform: scale(0.85);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  75% {
+    transform: scale(0.95);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+
+@keyframes scroll-arrow {
+	0%   {bottom: 0;}
+	75% {bottom: 30px;}
+	100% {bottom: 0;}
+}
+
+@-webkit-keyframes scroll-arrow {
+	0%   {bottom: 0;}
+  75% {bottom: 30px;}
+	100% {bottom: 0;}
+}
+
+@keyframes scroll-circle {
+	0%   {height: 48px;}
+	10% {height: 48px;}
+  50% {height: 52px;}
+	75% {height: 57px;}
+  90% {height: 52px;}
+	100% {height: 48px;}
+}
+
+@-webkit-keyframes scroll-circle {
+  0%   {height: 48px;}
+	10% {height: 48px;}
+  50% {height: 52px;}
+	75% {height: 57px;}
+  90% {height: 52px;}
+	100% {height: 48px;}
+}
+
+@-webkit-keyframes scroll-pulse {
+  0% {-webkit-transform: scale(0); opacity: 0;}
+  8% {-webkit-transform: scale(0); opacity: 0;}
+  15% {-webkit-transform: scale(0.1); opacity: 1;}
+  30% {-webkit-transform: scale(0.5); opacity: 1;}
+  100% {opacity: 0; -webkit-transform: scale(1.2);}
+}
+
+@-moz-keyframes scroll-pulse {
+  0% {-webkit-transform: scale(0); opacity: 0;}
+  8% {-webkit-transform: scale(0); opacity: 0;}
+  15% {-webkit-transform: scale(0.1); opacity: 1;}
+  30% {-webkit-transform: scale(0.5); opacity: 1;}
+  100% {opacity: 0; -webkit-transform: scale(1.2);}
+}
+
+/* End Animations */

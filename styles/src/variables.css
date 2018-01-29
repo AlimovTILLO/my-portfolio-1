@@ -1,0 +1,19 @@
+/* Variables */
+
+:root {
+  --main-text-color: #333333;
+  --oposite-text-color: #ffffff;
+  --orange: #ef7e1a;
+  --headerfont-family: Open Sans, system-ui;
+  --font-family: Roboto, system-ui;
+  --fontSize: 1.6rem;
+  --transition: all 0.5s;
+
+  --gray-bkg: rgba(0, 0, 0, 0.5);
+  --selection-bkg: rgba(255, 87, 34, 0.3);
+  --selection-text-color: #673AB7;
+}
+
+@custom-selector :--enter :hover, :focus;
+
+/* End Variables */
