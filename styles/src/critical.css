@@ -69,6 +69,7 @@ section {
 
 .section-description {
   margin: 7rem auto;
+  padding: 0 5%;
   max-width: 840px;
   text-align: center;
   font-size: calc(var(--fontSize) * 2);

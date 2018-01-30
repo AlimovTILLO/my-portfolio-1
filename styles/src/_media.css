@@ -1,0 +1,98 @@
+/* Media */
+@media (--mobiles) {
+  html {
+    font-size: 50%;
+  }
+
+  .flex-block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    margin: 1rem;
+  }
+
+  .nav {
+    :any-link {
+      font-size: 3rem;
+      padding: 1rem;
+    }
+  }
+
+  .hero-text {
+    margin-top: 10vh;
+  }
+
+  .scroll {
+    display: none;
+  }
+
+  .about-block__text {
+    font-size: calc(var(--fontSize) * 2);
+  }
+
+  .about-text__slider {
+    display: none;
+  }
+
+  .skill-progressbar {
+    &:after {
+      padding: 0 1rem;
+      font-size: 1rem;
+      line-height: 3rem;
+    }
+
+    &:before {
+      height: 3rem;
+    }
+  }
+
+  .portfolio-block {
+    a {
+      width: 100%;
+    }
+  }
+
+  .portfolio__text {
+    padding: 30% 10%;
+  }
+}
+
+@media (--tablets) {
+  html {
+    font-size: 60%;
+  }
+
+  .about-block {
+    flex-direction: column;
+
+    div {
+      width: 100%;
+    }
+  }
+
+  .about-block__text {
+    font-size: 2.5vw;
+  }
+
+  .skill-progressbar {
+    &:after {
+      padding: 0 1rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  .portfolio-block {
+    a {
+      width: calc(100% / 2);
+    }
+  }
+
+  .portfolio__text {
+    font-size: calc(var(--fontSize) * 1.5);
+    padding: 30% 10%;
+  }
+}
+/* End Media */
